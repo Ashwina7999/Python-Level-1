@@ -1,0 +1,16 @@
+a=input()
+for i in a:
+    if(i.isupper()==True):
+        print(i.lower(),end="")
+    else:
+        print(i.upper(),end="")
+
+
+'''
+TEST CASE 1:
+INPUT:
+Hai HOW ArE yOu
+
+OUTPUT:
+hAI how aRe YoU
+'''
