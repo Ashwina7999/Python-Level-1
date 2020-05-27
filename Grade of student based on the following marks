@@ -1,0 +1,26 @@
+a=int(input())
+if(a<40):
+    print("D grade")
+elif(a>=40 and a<=59):
+    print(" C grade")
+elif(a>=60 and a<=79):
+    print("B grade")
+elif(a>=80 and a<=100):
+    print("A grade")
+else:
+    print("Invalid input")
+
+
+'''
+If mark less than 40, print D grade
+If mark between 40-59, print C grade
+If mark between 60-79, print B grade
+If mark between 80-100, print A grade
+
+TEST CASE 1:
+INPUT
+88
+
+OUTPUT:
+A Grade
+'''
