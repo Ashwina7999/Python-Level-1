@@ -1,0 +1,18 @@
+a=input().split(",")
+for i in a:
+    print(i)
+
+
+
+'''
+TEST CASE 1:
+INPUT:
+Hai, hello,  Welcome to , Java ,Programming
+
+OUTPUT:
+Hai
+hello
+Welcome to
+Java 
+Programming
+'''
