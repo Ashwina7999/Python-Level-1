@@ -1,0 +1,29 @@
+a=int(input())
+b=int(input())
+c=a//b
+d=a%b
+print("The number of students in each team is {} and the number of students left out is {}" .format(c,d))
+
+
+
+
+'''
+During the physical education hour, PD sir Mr. Sundar has decided to conduct some team games. 
+He wants to split the students in the class into equal-sized teams. In some cases, there may 
+be some students who are left out from teams and he wanted to use the left out, students, to 
+assist him in conducting the team games.
+
+For instance, if there are 50 students in the class and if the class has to be divided into 
+7 equal-sized teams, 7 students will be there in each team and 1 student will be left out
+
+PD sir asks your help to automate this team splitting task. can you please help him out?
+
+
+TEST CASE 1:
+INPUT:
+60
+8
+
+OUTPUT:
+The number of students in each team is 7 and the number of students left out is 4
+'''
