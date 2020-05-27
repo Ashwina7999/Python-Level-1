@@ -1,0 +1,27 @@
+a=int(input())
+if((a%4==0) and ((a%400==0) or (a%100!=0))):
+    print("%d is a leap year" %(a))
+else:
+    print("%d is not a leap yaer" %(a))
+
+
+'''
+Leap year or not:
+    1. The year can be evenly divided by 4
+    2. If the year can be evenly divided by 100, it is NOT a leap year
+    3. The year is also evenly divisible by 400. Then it is a leap year
+
+TEST CASE 1:
+INPUT:
+400
+
+OUTPUT:
+400 is a leap year
+
+TEST CASE 2:
+INPUT:
+100
+
+OUTPUT:
+100 is not a leap year
+'''
