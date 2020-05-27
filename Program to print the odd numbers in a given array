@@ -1,0 +1,22 @@
+n=int(input())
+list1=[]
+for i in range(n):
+    a=int(input())
+    if(a%2!=0):
+        list1.append(a)
+print("Odd items of the array:",*list1) 
+
+
+'''
+TEST CASE 1:
+INPUT:
+5
+1
+3
+7
+5
+4
+
+OUTPUT:
+Odd items of the array: 1 3 7 5
+'''
