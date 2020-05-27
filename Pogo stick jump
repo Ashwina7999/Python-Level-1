@@ -1,0 +1,37 @@
+x=int(input())
+y=int(input())
+if(x>3):
+    a=x-3
+else:
+    a=3-x
+if(y>4):
+    b=y-4
+else:
+    b=4-y
+c=a+b
+print("raju needs {} jumps" .format(c))
+
+
+
+'''
+Raju lives in a colony. On his 9th birthday, his father gifts him a pogo stick, Raju is so excited to play 
+with the pogo stick. The pogo stick moves one unit per jump. He wanders around his house jumping with a pogo
+stick. He likes to show the pogo stick to his friends and decides to go using the Pogo sticks. Write a program 
+to find the number of jumps needed to reach his friend's house. Assume that Raju's house is in location (3,4)
+
+TEST CASE 1:
+INPUT:
+5
+6 
+
+OUTPUT:
+raju needs 3 jumps
+
+TEST CASE 2:
+INPUT:
+1
+9 
+
+OUTPUT:
+raju needs 6 jumps
+'''
