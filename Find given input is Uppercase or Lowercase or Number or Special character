@@ -1,0 +1,30 @@
+a=input()
+if(a.isupper()==True):
+    print("Uppercase character")
+elif(a.islower()==True):
+    print("Lowercase character")
+elif(a.isdigit()==True):
+    print("Number")
+else:
+    print("Special character")
+
+
+
+'''
+Write a program to receive a character as user input and determine if that character should be one of Uppercase character
+or Lowercase character or Number or Special character
+
+Output should be one of
+* Uppercase character
+* Lower character
+* Number
+* Special character
+
+
+TEST CASE 1:
+INPUT:
+d
+
+OUTPUT:
+Lowercase character
+'''
