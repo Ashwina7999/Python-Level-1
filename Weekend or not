@@ -1,0 +1,39 @@
+print("Enter day")
+a=input()
+if(a=="SUN" or a=="SAT"):SAT
+    print("Weekend")
+elif(a=="MON" or a=="TUE" or a=="WED" or a=="THUR" or a=="FRI"):
+    print("Not Weekend")
+
+
+
+
+'''
+TEST CASE 1:
+INPUT:
+SAT
+
+OUTPUT:
+Weekend
+
+TEST CASE 2:
+INPUT:
+MON
+
+OUTPUT:
+Not Weekend
+
+TEST CASE 3:
+INPUT:
+SUN
+
+OUTPUT:
+Weekend
+
+TEST CASE 4:
+INPUT:
+TUE
+
+OUTPUT:
+Not Weekend
+'''
