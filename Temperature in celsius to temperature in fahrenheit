@@ -1,0 +1,23 @@
+a=int(input())
+print("The temperature in fahrenheit is {}" .format(1.8*a+32.0))
+
+
+
+
+
+'''
+Write a program to read the temperature in celsius and print the temperature in Fahrenheit
+Hint: The formula for the conversion is F = 1.8*Temperature_in _celsius + 32.0
+
+TEST CASE 1:
+56
+
+OUTPUT:
+The temperature in fahrenheit is 132.8
+
+TEST CASE 2:
+78
+
+OUTPUT:
+The temperature in fahrenheit is 172.4
+'''
