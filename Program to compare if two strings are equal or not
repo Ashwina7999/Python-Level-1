@@ -1,0 +1,21 @@
+n=int(input())
+for i in range(n):
+    a,b=input().split()
+    if(a==b):
+        print("Strings are equal")
+    else:
+        print("Strings are not equal")
+
+'''
+TEST CASE 1:
+INPUT:
+3
+codevita codevita
+Hackerrank Hackerearth
+Codevita codevita
+
+OUTPUT:
+Strings are equal
+Strings are not equal
+Strings are not equal
+'''
