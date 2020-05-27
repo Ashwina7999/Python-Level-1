@@ -1,0 +1,18 @@
+a=int(input())
+print("The weight in lb is {}".format(2.2*a))
+
+
+
+
+
+'''
+Write a program to read mass in kilograms(kg) which is in the format of int. convert the mass entered in kilograms into pounds(lb), print the result to the console as shown in the example.
+Hint: The formula for the conversion is lb = 2.2*kilograms 
+
+TEST CASE 1:
+INPUT:
+89
+
+OUTPUT:
+The weight in lb is 195.8
+'''
