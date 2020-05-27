@@ -1,0 +1,17 @@
+
+a=int(input())
+for i in range(a):
+    print(a,end=" ")
+    
+    
+    
+'''
+Write a program that will receive a user input as n (integer) . Then it has to print that number n times
+
+TEST CASE 1:
+INPUT:
+7
+
+OUTPUT:
+7 7 7 7 7 7 7
+'''
