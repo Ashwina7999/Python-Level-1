@@ -1,0 +1,35 @@
+a=int(input())
+sum1=0
+if(a>=10 and a<=99):
+    while(a):
+        b=a%10
+        a=a//10
+        sum1+=b
+    print("Alice must go in path-{} to find her way to home" .format(sum1))
+else:
+    print("Invalid Input")
+
+
+'''
+Alice was bored those days, so she was sitting on the riverbank. suddenly she notices a talking, white rabbit with a pocket
+watch. it ran fast and she followed it, down a rabbit hole. she fell into the hole and found a magical wonderland with dark
+trees, beautiful flowers. she found many ways numbered from 1,2,3,.....18. she was confused which is the right way that will 
+lead her to her home. she found a cute bird, standing in one of the trees. Alice asked the bird for the way to go back to her home. 
+The bird said a two-digit number(say 23) and asked her to find the sum of its digits(2+3=5) and that numbered way will lead
+her to her home. For any other input, it should print "Invalid Input". Alice was already confused. Please help Alice in finding
+the route to her home.
+
+TEST CASE 1:
+INPUT:
+23
+
+OUTPUT:
+Alice must go in path-5  to find her way to home
+
+TEST CASE 2:
+INPUT:
+145
+
+OUTPUT:
+Invalid Input
+'''
