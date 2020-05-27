@@ -1,0 +1,32 @@
+a=int(input())
+if(a>=0 and a<=5):
+    print("The fine is Rs.0.50")
+elif(a>5 and a<=10):
+    print("The fine is Rs.1")
+elif(a>11 and a<=30):
+    print("The fine is Rs.5")
+elif(a>30):
+    print("Membership is cancelled")
+
+
+
+'''
+A library charges a fine for every book returned late. For the first 5 days, the fine is 50 paise, for 6-10 days fine is 
+one rupee and for above 10 days the fine is 5 rupees. If you return the book after 30 days your membership will be canceled.
+Write a program to accept the number of days the member is late to return the book and display the fine or the appropriate 
+member cancellation message.
+
+TEST CASE 1:
+INPUT:
+1
+
+OUTPUT:
+The fine is Rs.0.50
+
+TEST CASE 2:
+INPUT:
+35
+
+OUTPUT:
+Membership is cancelled
+'''
