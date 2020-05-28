@@ -1,0 +1,25 @@
+PROGRAM 1:
+list1=[int(input()) for i in range(int(input()))]
+b=list1.index(min(list1))
+print("Day of buying :",b+1)
+list2=list1.copy()
+list2=list2[b+1:]
+print("Day of Selling :",list1.index(max(list2))+1)
+
+
+'''
+Stock Price[] is an array containing stock price of Y company for n days starting from day 1 till nth data. 
+An investor can buy and sell once.Write a function which will print day of buying and day of selling so that 
+investor could have maximized his profit.
+
+TEST CASE 1:
+4
+250
+320
+190
+300
+
+OUTPUT:
+Day of buying : 3
+Day of Selling : 4
+'''
