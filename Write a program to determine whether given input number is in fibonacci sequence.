@@ -1,0 +1,35 @@
+a=int(input())
+list1=[]
+n1=0
+list1.append(n1)
+n2=1
+list1.append(n2)
+i=2
+while(i<=100):
+    n3=n1+n2
+    list1.append(n3)
+    n1=n2
+    n2=n3
+    i+=1
+if(a in list1):
+    print("True")
+else:
+    print("False")
+
+
+
+'''
+Write a program to determine whether given input number is in fibonacci sequence.[0,1,1,2,3,5] upto 100 terms.
+
+TEST CASE 1:
+32
+
+OUTPUT:
+False
+
+TEST CASE 2:
+8
+
+OUTPUT:
+True
+'''
