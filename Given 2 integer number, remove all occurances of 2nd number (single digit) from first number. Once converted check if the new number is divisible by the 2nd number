@@ -1,0 +1,38 @@
+a=input().strip()
+b=input().strip()
+for i in a:
+     if(i==b):
+          a=a.replace(i,'')
+print(a)
+if(int(a)%int(b)==0):
+     print("Divisible")
+else:
+     print("Not Divisible")
+
+
+
+'''
+Given 2 integer number, remove all occurances of 2nd number (single digit)
+from first number. Once converted check if the new number is divisible by the 2nd number
+
+
+TEST CASE 1:
+INPUT:
+7356434
+3
+
+OUTPUT:
+75644
+Not Divisible
+
+
+
+TEST CASE 2:
+INPUT:
+72564324
+2
+
+OUTPUT:
+756434
+Divisible
+'''
