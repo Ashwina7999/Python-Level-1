@@ -1,0 +1,22 @@
+a=list(input().strip())
+b=[]
+for i in a:
+     if(i not in b):
+          b.append(i)
+for i in b:
+     print(i,a.count(i))
+
+'''
+Find the number of occurances of each character in a string
+
+TEST CASE 1:
+INPUT:
+hello
+
+
+OUTPUT:
+h 1
+e 1
+l 2
+0 1
+'''
