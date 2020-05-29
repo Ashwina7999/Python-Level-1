@@ -1,0 +1,49 @@
+a=input().strip().split()
+for i in a:
+     if(i.isalpha()==True):
+          i=i[::-1]
+     elif(i.isdigit()==True):
+          i=i
+     else:
+          a=list(i)
+          i=''
+          l,r = 0,len(a)-1
+          while(l<r):
+               if a[l].isdigit()==True:
+                    l+=1
+               elif a[r].isdigit()==True:
+                    r-=1
+               else:
+                    a[l],a[r] = a[r],a[l]
+                    l+=1
+                    r-=1
+          for j in a:
+               i+=j
+     i=i.capitalize()
+     print(i,end=" ")
+
+
+
+'''
+Write a program to reverse the words in a sentence except the numeric.
+It should capitalize the fisrt letter post reversal
+
+
+TEST CASE 1:
+INPUT:
+there are 26 alphabets in english
+
+
+OUTPUT:
+Ereht Era 26 Stebahpla Ni Hsilgne
+
+
+
+
+TEST CASE 2:
+INPUT:
+I26t is not a digit 1234
+
+OUTPUT:
+T26i Si Ton A Tigid 1234 
+'''
