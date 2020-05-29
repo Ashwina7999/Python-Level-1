@@ -1,3 +1,12 @@
+PROGRAM 1:
+a=input().strip()
+if(len(a)==2):
+    print("Alice must go in path-{} to find her way to home" .format(sum(list(map(int,a)))),end='')
+else:
+    print("Invalid Input") 
+    
+    
+PROGRAM 2:    
 a=int(input())
 sum1=0
 if(a>=10 and a<=99):
