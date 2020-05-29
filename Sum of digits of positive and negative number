@@ -1,3 +1,15 @@
+PROGRAM 1:
+for i in range(int(input())):
+    a=input().strip()
+    if(a[0]!='-'):
+        print(sum(list(map(int,a))))
+    else:
+        a=a[1:]
+        print("-{}".format(sum(list(map(int,a)))))  
+        
+
+
+PROGRAM 2:
 n=int(input())
 for i in range(n):
     a=int(input())
