@@ -1,0 +1,39 @@
+a=input().strip()
+b=input().strip()
+c=int(input())
+flag=0
+for i in range(len(a)):
+     if(a[i]==b):
+          flag+=1
+     if(flag==c):
+          print(i)
+          break
+if(flag==0):
+     print("-1")
+
+
+'''
+Find the index of nth occurances of a character within a string when
+a string is scanned left to right.
+
+NOTE: Index starts from 0 while counting
+
+
+INPUT:
+Hello there
+e
+3
+
+OUTPUT:
+10
+
+
+
+INPUT:
+Hello there
+3
+4
+
+OUTPUT:
+-1
+'''
